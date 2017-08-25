@@ -1,0 +1,816 @@
+img{border:0px;}
+label.error {   
+  color: red;display: none;font-size:12px;font-family:"Microsoft YaHei" ! important; 
+  }
+.product-details{
+ 	display:none;
+}
+#brand-class{
+	background:rgb(244,244,239);
+	margin: 0px auto; border-radius: 0px 0px 4px 4px;  width: 1200px; height: 100px; overflow: hidden; padding-bottom: 25px; margin-top:10px; margin-bottom: 10px; position: relative; -moz-border-radius: 2px; -webkit-border-radius: 2px;	
+	border-top-width: 2px;box-shadow: 0px 2px 3px rgba(0,0,0,0.3); -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 3px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 3px;
+}
+#brand-class:hover{
+	background:rgb(255,255,255) !important;
+}
+.brand-class-header{
+background:rgb(255,255,255);border-bottom: rgb(20, 123, 20) 1px solid;	
+}
+.brand-class-top{
+ width:980px;font-size:12px; font-family:"Microsoft YaHei" ! important; padding-left:10px; font-weight:800; color:rgb(255,255,255); background-image:url(../webimages/box-head2.png); background-repeat:no-repeat; line-height:30px
+}
+.brand-class-top h1{
+  font-size:12px; font-family:"Microsoft YaHei" ! important; padding-left:10px; font-weight:800; color:rgb(255,255,255); line-height:30px
+}
+.brand-class-text{
+	font-size:13px;font-family:"Microsoft YaHei" ! important; margin-top:10px;line-height:30px; float:left; margin-left:40px;
+}
+.brand-class-text a{	
+	text-decoration:none;color:rgb(104,104,98);
+}
+.brand-class-text a:hover{	
+		color: rgb(0, 0, 0) !important;
+}
+#brand-image{
+	margin: 0px auto; padding: 0px; width: 1200px; height: 332px; overflow: hidden; position: relative;
+}
+
+#shoppingList{
+	background:rgb(237,237,237);
+	 width: 398px; height: 180px; overflow: hidden;
+}
+.shoppingList-head{
+	background: url("../webimages/info-box-bg.png");width: 398px; height: 25px;
+	font-size:12px; font-family:"Microsoft YaHei" ! important;padding-left:20px ; padding-top:5px;font-weight:800; color:rgb(255,255,255);
+
+}
+.shoppingList-pic{
+	background: url("../webimages/okbag.png") no-repeat left top;_background:none;
+	width: 390px; height: 73px;	margin-left:45px ; margin-top:25px;font-size:15px; font-family:"Microsoft YaHei" ! important;padding-left:65px ; padding-top:5px;font-weight:600;color:rgb(68, 67, 67);
+
+}
+.shoppingList-text{
+	width: 390px;margin-left:0px ; margin-top:5px;font-size:12px; font-family:"Microsoft YaHei" ! important;padding-left:0px ; padding-top:10px;
+	
+}
+.shoppingList-text span{
+	color:rgb(191,26,30);
+}
+.shoppingList-do{
+	 margin-left:50px ; margin-top:0px;
+}
+.shoppingList-do a{	
+	text-decoration:none;border:0px;
+	outline:none;
+}
+.shoppingList-do a:hover{	
+	text-decoration:none;
+	outline:none;
+}
+#productList a{
+	text-decoration:none;border:0px;color:rgb(0,0,0);
+	outline:none;
+}
+#productList a:hover{
+	text-decoration:none;color:rgb(181,20,45);
+	outline:none;
+}
+ 
+.box-slider {
+	margin: 0px auto; padding: 0px; width: 1200px; height: 410px; text-align: left; overflow: hidden; position: relative;
+}
+.moduletable_slider {
+	margin: 0px; padding: 0px; width: 100%; position: relative; z-index: 10;
+}
+#slider {
+	width: 1200px; height: 410px; overflow: hidden; position: relative;
+}
+
+.nivoSlider img {
+	left: 0px; top: 0px; position: absolute;
+}
+.nivoSlider a.nivo-imageLink {
+	margin: 0px; padding: 0px; border: 0px currentColor; left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 60;
+}
+.nivo-slice {
+	height: 100%; display: block; position: absolute; z-index: 50;
+}
+.nivo-caption {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); position: absolute; z-index: 89; opacity: 0.8;
+}
+.nivo-caption p {
+	margin: 0px; padding: 5px;
+}
+.nivo-caption a {
+	display: inline !important;
+}
+.nivo-html-caption {
+	display: none;
+}
+.nivo-directionNav a {
+	top: 45%; position: absolute; z-index: 99; cursor: pointer;
+}
+.nivo-prevNav {
+	left: 0px; display: none;
+}
+.nivo-nextNav {
+	right: 0px; display: none;
+}
+.nivo-controlNav {
+	right: 59px; bottom: 40px; position: absolute; z-index: 99;
+}
+.nivo-controlNav li {
+	
+}
+.nivo-controlNav a {
+	background: url("../webimages/nivo-controlNav-a.png") no-repeat right top; width: 11px; height: 11px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; text-indent: -5000px; padding-top: 0px; font-size: 12px; font-weight: bold; text-decoration: none; margin-left: 10px; float: left; display: block; z-index: 99; cursor: pointer;
+}
+.nivo-controlNav a.active {
+	background: url("../webimages/nivo-controlNav-a.png") no-repeat left top;
+}
+#wpcumuluswidgetcontent a:hover {
+	color: rgb(0, 0, 0) !important;
+}
+
+#header .horizontal-cat {
+	background: url("../webimages/categories-bg.gif"); margin: 23px 0px 0px; height: 55px; position: relative; box-shadow: 0px 2px 5px #d1d1d1; -moz-box-shadow: 0 2px 5px #d1d1d1; -webkit-box-shadow: 0 2px 5px #d1d1d1;
+}
+
+div#dropMenu li a:hover {
+	
+}
+div#dropMenu li.submenu li.submenu:hover {
+	
+}
+#dropMenuWrapper {
+	margin: 0px; width: 100%;
+}
+div#dropMenu {
+	position: relative; z-index: 2;
+}
+div#dropMenu ul {
+	margin: 0px; padding: 0px;
+}
+div#dropMenu li {
+	list-style: none; margin: 0px; line-height: 1em; float: left; position: relative;
+}
+div#dropMenu ul.level1 {
+	
+}
+div#dropMenu li:hover {
+	
+}
+div#dropMenu li.submenu {
+	
+}
+div#dropMenu li.submenu:hover {
+	
+}
+div#dropMenu li a {
+	 display: block;
+}
+div#dropMenu > ul a {
+ width: auto;
+}
+div#dropMenu ul ul {
+	display: none; position: absolute;
+}
+div#dropMenu ul ul li {
+	
+}
+div#dropMenu li.submenu li.submenu {
+	
+}
+div#dropMenu ul.level1 li.submenu:hover ul.level2 {
+	display: block; z-index: 2;
+}
+div#dropMenu ul.level2 li.submenu:hover ul.level3 {
+	display: block; z-index: 2;
+}
+div#dropMenu ul.level3 li.submenu:hover ul.level4 {
+	display: block; z-index: 2;
+}
+div#dropMenu ul.level4 li.submenu:hover ul.level5 {
+	display: block; z-index: 2;
+}
+div#dropMenu ul.level2 {
+	top: 40px; z-index: 2;
+}
+div#dropMenu ul.level3 {
+	left: 13em; top: 0px;
+}
+div#dropMenu ul.level4 {
+	left: 13em; top: 0px;
+}
+div#dropMenu ul.level5 {
+	left: 13em; top: 0px;
+}
+div#dropMenu ul.level2 a {
+	padding: 0px; text-transform: none;
+}
+div#dropMenu ul.level2 a:hover {
+	
+}
+div#dropMenu > ul.level1 {
+	
+}
+div#dropMenu > ul.level1 > li {
+	
+}
+div#dropMenu > ul.level1 > li > a {
+	padding: 8px 19px 9px 20px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 38px; font-size: 14px; font-weight: bold; text-decoration: none; border-right-color: rgb(72, 72, 72); border-right-width: 1px; border-right-style: solid; display: block;
+}
+div#dropMenu > ul.level1 > li > a:hover {
+	background: rgb(20, 17, 17);
+}
+div#dropMenu ul.level2 {
+	padding: 2px 0px 0px; min-width: 160px;
+}
+div#dropMenu ul.level2 li {
+	background: rgb(51, 51, 51); border-bottom-color: rgb(72, 72, 72); border-bottom-width: 1px; border-bottom-style: solid; display: block; min-width: 160px;
+}
+div#dropMenu ul.level2 li a {
+	margin: 0px 0px 0px 18px; padding: 0px 0px 0px 13px; color: rgb(247, 247, 249); text-transform: uppercase; line-height: 28px; font-size: 11px; text-decoration: none; display: block;
+}
+div#dropMenu ul.level2 li:hover {
+	background: rgb(36, 36, 36);
+}
+div#dropMenu ul.level1 li.submenu > a:hover {
+	background: rgb(36, 36, 36);
+}
+div#dropMenu ul.level1 li.submenu:hover > a {
+	background: rgb(36, 36, 36);
+}
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	font-family:"Microsoft YaHei" ! important;background: url(/webimages/mainbg.gif);
+}
+
+img {
+	border: 0px currentColor;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+td {
+	text-align: left; vertical-align: top;
+}
+.main-width {
+	margin: 0px auto; width: 1000px; text-align: left;
+}
+input {
+	font-family: Tahoma; font-size: 1em;
+}
+textarea {
+	font-family: Tahoma; font-size: 1em;
+}
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+img {
+	vertical-align: top;
+}
+a img {
+	border: 0px currentColor;
+}
+ul {
+	list-style: none;
+}
+.alignright {
+	text-align: right;
+}
+.aligncenter {
+	text-align: center;
+}
+.wrapper {
+	width: 100%; 
+}
+.container {
+	width: 100%;
+}
+.column-1 {
+	float: left;
+}
+.column-2 {
+	float: left;
+}
+.column-3 {
+	float: left;
+}
+a {
+	color: rgb(126, 126, 126); text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+#advSearchResultsDefault form {
+	overflow: hidden; margin-bottom: 10px; display: block;
+}
+#popupSearchHelp {
+	padding: 0px;
+}
+.centeredContent .inp1 input {
+	width: 300px;
+}
+.productListing-data .normalprice {
+	display: block;
+}
+.cartRemoveItemDisplay input {
+	border: currentColor !important;
+}
+#gender-female {
+	border: currentColor !important;
+}
+#gender-male {
+	border: currentColor !important;
+}
+#newsletter-checkbox {
+	border: currentColor !important;
+}
+#email-format-text {
+	border: currentColor !important;
+}
+#email-format-html {
+	border: currentColor !important;
+}
+#rating-1 {
+	border: currentColor !important;
+}
+#rating-2 {
+	border: currentColor !important;
+}
+#rating-3 {
+	border: currentColor !important;
+}
+#rating-4 {
+	border: currentColor !important;
+}
+#rating-5 {
+	border: currentColor !important;
+}
+#pmt-linkpoint_api {
+	border: currentColor !important;
+}
+#pmt-moneyorder {
+	border: currentColor !important;
+}
+#pmt-paypal {
+	border: currentColor !important;
+}
+#pmt-cod {
+	border: currentColor !important;
+}
+#globalnotify {
+	border: currentColor !important;
+}
+#notify-0 {
+	border: currentColor !important;
+}
+#rating-1 {
+	margin: 2px 4px 0px 8px;
+}
+#rating-2 {
+	margin: 2px 4px 0px 8px;
+}
+#rating-3 {
+	margin: 2px 4px 0px 8px;
+}
+#rating-4 {
+	margin: 2px 4px 0px 8px;
+}
+#rating-5 {
+	margin: 2px 4px 0px 8px;
+}
+#pmt-cod {
+	border: currentColor !important; top: 2px; position: relative;
+}
+#pmt-moneyorder {
+	border: currentColor !important; top: 2px; position: relative;
+}
+#ship-flat-flat {
+	border: currentColor !important; top: 2px; position: relative;
+}
+#ship-item-item {
+	border: currentColor !important; top: 2px; position: relative;
+}
+#ship-storepickup-storepickup {
+	border: currentColor !important; top: 2px; position: relative;
+}
+#primary {
+	border: currentColor !important; top: 2px; margin-left: 10px; position: relative;
+}
+#disc-ot_coupon {
+	margin: 5px 0px 0px;
+}
+#allProductsListingTopNumber {
+	margin-top: 4px;
+}
+#newProductsDefaultListingTopNumber {
+	margin-top: 4px;
+}
+#specialsListingTopNumber {
+	margin-top: 4px;
+}
+#allProductsListingBottomNumber {
+	margin-top: 6px;
+}
+#newProductsDefaultListingBottomNumber {
+	margin-top: 6px;
+}
+#specialsListingBottomLinks {
+	margin-top: 10px;
+}
+#header {
+	
+}
+#header .header-top {
+	background: url("../webimages/body-bg.jpg") repeat-x left top; height: 87px;
+}
+#wei-bg {
+	background: url("../images/tbg.jpg") repeat left top;width:100%;
+}
+#header .banner-top {
+	padding: 3px 0px 0px; float: left;
+}
+#header .lang {
+	padding: 13px 1px 0px 9px; float: right;
+}
+#header .currencies {
+	padding: 8px 0px 0px; color: rgb(175, 174, 174); line-height: 20px; overflow: hidden; font-size: 15px; float: right;
+}
+#header .currencies select {
+	background: rgb(255, 255, 255); padding: 1px 1px 1px 0px; border: 1px solid rgb(240, 240, 240); width: 73px; height: 20px; color: rgb(194, 194, 194); font-family: Arial, Helvetica, sans-serif; font-size: 11px; margin-left: -5px;
+}
+#header .logo {
+	margin-top: -5px;margin-left: -50px; float: left;
+}
+#header .header-right {
+	text-align: left; float: left;
+}
+#header .cart {
+	background: url("../webimages/cart.png") no-repeat left top; margin: 38px 2px 0px 0px; padding: 1px 0px 0px 30px; color: rgb(156, 156, 156); line-height: 20px; font-size: 14px; float: right;background: url("../webimages/cart.png") no-repeat left top; margin: 17px 1px 0px 0px; padding: 7px 0px 5px 48px; color: rgb(154, 153, 153); line-height: 27px; font-size: 11px; float: right;
+}
+#header .cart a {
+	color: rgb(39, 39, 39); font-weight: bold; text-decoration: none; margin-left: 4px;
+}
+#header .cart a:hover {
+	color: rgb(156, 156, 156);
+}
+#header .navigation {
+	color: rgb(255, 255, 255);background: url("../webimages/nav-line.gif") no-repeat right; margin: 28px 23px 0px 0px; padding: 1px 5px 4px 0px; line-height: 20px; font-size: 12px; font-family:"Microsoft YaHei" ! important; float: right;
+}
+#header .navigation a {
+	color: rgb(156, 156, 156); text-decoration: none; margin-right: 15px;
+}
+#header .navigation a:hover {
+	color: rgb(255, 255, 255);
+}
+#header .menu {
+	margin: 45px 0px 0px; float: left;
+}
+#header .menu ul {
+	margin: 0px; padding: 0px; overflow: hidden;
+}
+#header .menu ul li {
+	margin-left: 21px; float: left;
+}
+#header .menu ul li first{
+	margin-left: 0px; float: left;
+}
+#header .menu ul li a {
+	color: rgb(101, 98, 92); line-height: 34px; font-size: 12px; font-weight:600; text-decoration: none;
+}
+#header .menu ul li.selected a {
+	color: rgb(7, 7, 7);
+}
+#header .menu ul li a:hover {
+	color: rgb(7, 7, 7);
+}
+#header .search {
+	margin: 15px 1px 0px 0px; float: right;
+}
+#header .search .input1 {
+	background: rgb(254, 254, 254); padding: 6px 5px 5px; border: 1px solid rgb(232, 232, 232); width: 256px; font-style: italic; float: left;
+}
+#header .search .input2 {
+	padding: 0px; border: currentColor; margin-left: 3px; float: left;
+}
+#header .bot {
+	background: url("../webimages/100.png") no-repeat right bottom; height:78px;
+	overflow: hidden; padding-bottom: 0px; margin-bottom: 3px; border-bottom-color: rgb(20, 123, 20); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.name {
+	line-height: 20px; font-size: 17px; font-weight: bold; text-decoration: none;
+}
+.name:hover {
+	color: rgb(0, 0, 0);
+}
+#column_right {
+	padding-right: 3px; padding-left: 20px;
+}
+.column-center-padding {
+	margin-left: -1px;
+}
+#indexDefault #featuredProducts .centerBoxHeading {
+	display: none;
+}
+#contentMainWrapper {
+	margin: 10px 0px 0px; padding-bottom:20px;
+}
+.siderWhite{
+	width:100%;height:20px;margin-top:0px;
+}
+.product-col {
+	background: rgb(255, 255, 255); border-radius: 2px;  width: 218px; height: 300px; margin-top: 20px; overflow: hidden; padding-bottom: 25px; margin-bottom: 10px; position: relative; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+	-moz-border-radius: 2px; -webkit-border-radius: 2px;box-shadow: -1px 2px 2px rgba(0,0,0,0.3),1px 0px 2px rgba(0,0,0,0.3); -moz-box-shadow: rgba(0, 0, 0, 0.3) -2 2px 2px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) -2 2px 2px;_border: 1px solid rgb(221, 221, 221);
+}
+.product-new{
+	background:rgb(255, 255, 255) url("../webimages/new.png") left top no-repeat;_border: 1px solid rgb(221, 221, 221);
+	border-radius: 2px;  width: 218px; height: 300px; overflow: hidden;padding-bottom: 25px; margin-top: 20px; position: relative; 
+	 -moz-border-radius: 2px; -webkit-border-radius: 2px; box-shadow: -1px 2px 2px rgba(0,0,0,0.3),1px 0px 2px rgba(0,0,0,0.3); -moz-box-shadow: rgba(0, 0, 0, 0.3) -2 2px 2px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) -2 2px 2px;
+	 
+}
+.product-sale{
+	background:rgb(255, 255, 255) url("../webimages/sale.png") left top no-repeat;_border: 1px solid rgb(221, 221, 221);
+	 border-radius: 2px; width: 218px; height: 300px; overflow: hidden; padding-bottom: 25px; margin-top: 20px;  position: relative; 
+	 -moz-border-radius: 2px; -webkit-border-radius: 2px;box-shadow: -1px 2px 2px rgba(0,0,0,0.3),1px 0px 2px rgba(0,0,0,0.3); -moz-box-shadow: rgba(0, 0, 0, 0.3) -2 2px 2px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) -2 2px 2px;
+}
+
+.product-col .img {
+	margin: 30px 0px 0px; text-align: center;
+}
+.product-new .img {
+	margin: 30px 0px 0px; text-align: center;
+}
+.product-sale .img {
+	margin: 30px 0px 0px; text-align: center;
+}
+.product-col .name {
+	color: rgb(140, 140, 140); line-height: 10px; font-size: 13px; font-weight: normal;
+}
+.product-new .name {
+	color: rgb(140, 140, 140); line-height: 10px; font-size: 13px; font-weight: normal;
+}
+.product-sale .name {
+	color: rgb(140, 140, 140); line-height: 10px; font-size: 13px; font-weight: normal;
+}
+.product-col .prod-info {
+	text-align:center;padding-top:12px;
+}
+.product-new .prod-info {
+	text-align:center;padding-top:12px;
+}
+.product-sale .prod-info {
+	text-align:center;padding-top:12px;
+}
+.product-col .name {
+	margin-bottom: 7px;  
+}
+.product-new .name {
+	margin-bottom: 7px; 
+}
+.product-sale .name {
+	margin-bottom: 7px;  
+}
+.product-col .name:hover {
+	color: rgb(0, 0, 0);
+}
+.product-new .name:hover {
+	color: rgb(0, 0, 0);
+}
+.product-sale .name:hover {
+	color: rgb(0, 0, 0);
+}
+.product-col .price {
+	margin-left: -2px;
+}
+.product-new .price {
+	margin-left: -2px;
+}
+.product-sale .price {
+	margin-left: -2px;
+}
+.price {
+	color: rgb(163, 18, 18); line-height: 20px; font-family: "Microsoft YaHei" ! important; font-size: 17px; font-weight: bold ;
+}
+.price strong {
+	font-weight: bold;
+}
+.product-col .info-box {
+	background: url("../webimages/info-box-bg.png") left top; padding: 0px 30px; left: 0px; top: 376px; width: 158px; height: 100%; position: absolute;
+}
+.product-new .info-box {
+	background: url("../webimages/info-box-bg.png") left top; padding: 0px 30px; left: 0px; top: 376px; width: 158px; height: 100%; position: absolute;
+}
+.product-sale .info-box {
+	background: url("../webimages/info-box-bg.png") left top; padding: 0px 30px; left: 0px; top: 376px; width: 158px; height: 100%; position: absolute;
+}
+.product-col .txt {
+	padding: 26px 0px 0px; color: rgb(174, 174, 174); line-height: 20px; font-size: 14px; text-decoration: none;
+}
+.product-new .txt {
+	padding: 26px 0px 0px; color: rgb(174, 174, 174); line-height: 20px; font-size: 14px; text-decoration: none;
+}
+.product-sale .txt {
+	padding: 26px 0px 0px; color: rgb(174, 174, 174); line-height: 20px; font-size: 14px; text-decoration: none;
+}
+.product-col .text {
+	padding: 26px 0px 0px; color: rgb(174, 174, 174); line-height: 20px; font-size: 14px; text-decoration: none;
+}
+.product-sale .text {
+	padding: 26px 0px 0px; color: rgb(174, 174, 174); line-height: 20px; font-size: 14px; text-decoration: none;
+}
+.product-new .text {
+	padding: 26px 0px 0px; color: rgb(174, 174, 174); line-height: 20px; font-size: 14px; text-decoration: none;
+}
+.product-col .txt:hover {
+	color: rgb(255, 255, 255);
+}
+.product-col .button {
+	left: 30px; bottom: 30px; position: absolute;
+}
+.product-new .txt:hover {
+	color: rgb(255, 255, 255);
+}
+.product-new .button {
+	left: 30px; bottom: 30px; position: absolute;
+}
+.product-sale .txt:hover {
+	color: rgb(255, 255, 255);
+}
+.product-sale .button {
+	left: 30px; bottom: 30px; position: absolute;
+}
+#newProductsDefaultHeading {
+	background: url("../webimages/title-bg.gif") left top; padding: 7px 0px 10px 29px; color: rgb(255, 255, 255); line-height: 22px; font-size: 22px; font-weight: normal; margin-bottom: 10px;
+}
+#unsubDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#discountcouponInfo {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#conditions {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#siteMap {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#privacy {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#shippingInfo {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#accountNotifications {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#logoffDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#advSearchDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#checkoutSuccess {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#checkoutConfirmDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#checkoutShipping {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#addressBookDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#accountDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#accountHistInfo {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#reviewsWrite {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#reviewsDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#accountEditDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#checkoutPayment {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#checkoutShipAddressDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#accountHistoryDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#accountPassword {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#acctNewslettersDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+#checkoutPayAddressDefault {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(235, 235, 235); overflow: hidden;
+}
+.ppc {
+	margin: 7px 0px 0px; display: inline-block;
+}
+#footer {
+	width:100%;background:  url("../webimages/bg.png"); margin: 20px 0px 0px; padding-bottom: 32px; border-top-color: rgb(20, 120, 20); border-top-width: 1px; border-top-style: solid;
+}
+#footer ul {
+	float:left; margin-left:190px;
+}
+#footer .firstul {
+	 margin-left:130px;_margin-left:70px
+}
+#footer .footer-menu {
+	padding: 26px 0px 0px; line-height: 22px; font-size: 14px;width:100%;
+}
+#footer .footer-menu a {
+	color: rgb(255,255,255); text-decoration: none;font-size: 12px;
+}
+#footer .footer-menu a:hover {
+	color: rgb(20, 123, 20);
+}
+#footer .copyright {
+	color: rgb(0, 0, 0); line-height: 22px; font-size: 14px; font-style: italic;
+}
+#footer .copyright a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#footer .copyright a:hover {
+	color: rgb(156, 156, 156);
+}
+input {
+	background: rgb(253, 253, 253); padding: 2px; border: 1px solid rgb(227, 227, 227); color: rgb(1, 1, 1); line-height: normal; font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+select {
+	background: rgb(253, 253, 253); padding: 2px; border: 1px solid rgb(227, 227, 227); color: rgb(1, 1, 1); line-height: normal; font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+textarea {
+	background: rgb(253, 253, 253); padding: 2px; border: 1px solid rgb(227, 227, 227); color: rgb(1, 1, 1); line-height: normal; font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+input:focus {
+	
+}
+select:focus {
+	
+}
+textarea:focus {
+	
+}
+.js {
+	margin: 1px 0px 30px; overflow: hidden; position: relative; min-height: 643px;
+}
+.popular_box {
+	height: 643px; overflow: hidden; position: relative;
+}
+.main-width {
+	margin: 0px auto; width: 1200px; text-align: left;
+}
+.slider-wrap {
+	left: 0px; top: 0px; width: 100%; height: 643px; overflow: hidden; float: left; position: absolute; min-width: 940px;
+}
+.body2 {
+	background: url("../webimages/slider.jpg") repeat-x 50% 0px; height: 643px;
+}
+#slider_extra {
+	left: 50%; width: 2580px; margin-left: -991px; position: absolute;
+}
+.marker_right {
+	border: currentColor; width: 65px; height: 127px; position: absolute; z-index: 999; cursor: pointer;
+}
+.marker_left {
+	border: currentColor; width: 65px; height: 127px; position: absolute; z-index: 999; cursor: pointer;
+}
+.marker_left {
+	background: url("../webimages/prev-next.png") no-repeat left top; padding: 0px; left: 487px; top: 241px;
+}
+.marker_left:hover {
+	background: url("../webimages/prev-next.png") no-repeat left bottom;
+}
+.marker_right {
+	background: url("../webimages/prev-next.png") no-repeat right bottom; padding: 0px; top: 241px; right: 1086px;
+}
+.marker_right:hover {
+	background: url("../webimages/prev-next.png") no-repeat right top;
+}
