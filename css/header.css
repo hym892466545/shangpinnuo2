@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  width: 100%;
+  height: 87px;
+  background: url("../images/body-bg.jpg");
+}
+#header .logo {
+  float: left;
+}
+#header .headerTop {
+  width: 1201px;
+  height: 87px;
+  margin: 0 auto;
+}
+#header .headerTop .right {
+  width: 379px;
+  height: 87px;
+  float: right;
+  background: url(../images/cart.png) no-repeat 255px 17px;
+}
+#header .headerTop .right .nav {
+  margin-top: 28px;
+  width: 210px;
+  height: 25px;
+  border-right: 1px solid #dbdbdb;
+  font-size: 12px;
+  line-height: 25px;
+  float: left;
+}
+#header .headerTop .right #cart {
+  float: right;
+  width: 90px;
+  height: 25px;
+  margin-top: 28px;
+  line-height: 25px;
+  font-size: 11px;
+  text-align: right;
+}
+#header .headerBottom {
+  width: 100%;
+  height: 80px;
+  background: #efefef;
+}
+#header .headerBottom .box {
+  width: 1201px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 1px solid #147b14;
+  background: url(../images/100.png) no-repeat right bottom;
+}
+#header .headerBottom .box ul {
+  width: 480px;
+  height: 34px;
+  font-size: 12px;
+  float: left;
+  margin-top: 46px;
+  overflow: hidden;
+}
+#header .headerBottom .box ul li {
+  list-style: none;
+  float: left;
+  line-height: 34px;
+  font-weight: 600;
+  margin-left: 21px;
+}
+#header .headerBottom .box ul li a {
+  color: #65625c;
+}
+
+/*# sourceMappingURL=header.css.map */
