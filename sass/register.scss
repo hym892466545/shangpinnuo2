@@ -1,0 +1,110 @@
+*{margin: 0;padding: 0;}
+$w:1201px;
+$w1:100%;
+a{text-decoration: none;}
+.register_wrap{
+    width: $w1;
+    height: 453px;
+    background: #efefef;
+    border-bottom: 1px solid #147b14;
+    
+    .register{
+        width: $w;
+        height: 433px;
+        margin:0 auto;
+        border-left: 1px solid #b3b3b3;
+        border-bottom: 1px solid #b3b3b3;
+        overflow:hidden;
+        
+        .registerTop{
+            width: $w;
+            height: 47px;
+            margin-top: 3px;
+            background: url(../images/info-box-bg.png);
+            
+            div{
+                width:80px;
+                height: 47px;
+                color: white;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 47px;
+                margin-left: 27px;
+            }
+        }
+        
+        .registerLeft{
+            width: 599px;
+            height: 383px;
+            float: left;
+            overflow: hidden;
+            border-right: 1px solid #147b14;
+            
+            div{
+                width: 548px;
+                height: 304px;
+                margin-top: 38px;
+                margin-left: 51px;
+                
+                p{
+                    margin: 20px 0px 0px 0px;
+                    padding: 0px;
+                    text-align: left;
+                    font-size: 14px;
+                    font-weight: 500;
+                                        
+                    .register-lab{
+                        font-size: 14px;
+                        font-weight: 500;
+                        width: 100px;
+                        text-align: right;
+                        padding-right: 5px;
+                        display: inline-block;
+                    }
+                    
+                    .small-input{
+                        padding: 6px;
+                        font-size: 13px;
+                        border: 1px solid #d5d5d5;
+                        color: #333;
+                        width: 200px;
+                    }
+                }
+                
+                .register-tip{
+                    margin-top: 0px !important;
+                    padding-left: 54px;
+                    padding-top: 0px;
+                    text-align: left;
+                    font-size: 12px;
+                    font-weight: 500;
+                    width: 312px;
+                    height: 16px;
+                }
+                
+                a{
+                   font-size: 14px; 
+                   color: rgb(125,125,125);
+                   
+                   img{
+                       margin-top: 22px;
+                       margin-left: 105px;
+                   }
+                }
+            }
+        }
+        
+        .registerRight{
+            width: $w - 600px;
+            height: 383px;
+            background: url(../images/promise.jpg) no-repeat 0px 47px;
+            float: left;
+        }
+    }
+}
+
+.footerbottom{
+    width: $w1;
+    height: 77px;
+    background: #efefef;
+}

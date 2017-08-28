@@ -1,0 +1,151 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+$w1:100%;
+$w:1201px;
+.productwrap{
+   width:$w1;
+   height: 1427px;
+   background: #efefef;
+   
+    .mainwrap{
+        width: $w;
+        height: 1411px;
+        background: white;
+        margin: 0 auto;
+        
+        .main{
+            width: $w;
+            height: 486px;
+            border-bottom: 1px solid #147b14;
+            margin: 0 auto;
+            background: url(../images/box-head2.png) no-repeat 0px 447px;
+        
+            ._nav{
+                width: $w;
+                height: 79px;
+                margin: 0 auto;
+                overflow:hidden;
+                background: #efefef;
+                
+                ul{
+                   width: $w;
+                   height: 57px;
+                   margin-top: 22px;
+                   background: url(../images/categories-bg.gif);
+                   
+                   li{
+                       height: 57px;
+                       width: 84px;
+                       float: left;
+                       border-right:1px solid #484848;
+                       text-align: center;
+                       line-height: 57px;
+                       &:hover{background: black;}
+                       
+                       a{
+                           font-weight: 900;
+                           font-size: 14px;
+                           color: white;
+                       }
+                   }
+                }
+            }
+            
+            .back{
+                width: $w;
+                height: 44px;
+                margin: 0 auto;
+                background: url(../images/brand-header.png) no-repeat 0px 12px;
+                font-size: 13px;
+                font-weight: 800;
+                color: white;
+                border-bottom: 1px solid #147b14;
+                
+                    a{
+                        color: white;
+                        margin-left: 5px;
+                        line-height: 57px;
+                    }
+            }
+            
+            ._productbox{
+                width: $w;
+                height: 300px;
+                margin: 0 auto;
+                border-left:2px solid  #cfcfcf;
+                border-bottom: 2px solid  #cfcfcf;
+                
+                ._productleft{
+                    width: 593px;
+                    height: 300px;
+                    border-right:1px solid ;
+                    position:relative;
+                    float:left;
+                    
+                    img{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        margin: auto;
+                    }
+                }
+                
+                ._productright{
+                    float: left;
+                    width: $w - 597px;
+                    height: 300px;
+                    position:relative;
+                    
+                        ._productright_top{
+                            width: 569px;
+                            height: 45px;
+                            border-bottom: 1px solid #a21818;
+                            text-align: center;
+                            line-height: 45px;
+                            font-size: 16px;
+                            font-weight: 800;
+                        }
+                        
+                        ._productright_center{
+                            margin-left: 145px;
+                            width: 425px;
+                            height: 148px;
+                            border-bottom: 2px solid;
+                            overflow: hidden;
+                            
+                            div{
+                                margin-top: 20px;
+                                font-size: 12px;
+                                
+                                ._span{
+                                   margin-left: 10px; 
+                                }
+                            }
+                        }
+                        
+                        ._productright_bottom{
+                            overflow: hidden;
+                            
+                            a{
+                                display: block;
+                                width: 230px;
+                                height: 60px;
+                                margin-top: 27px;
+                                margin-left: 213px;
+                            }
+                            
+                        }
+                        
+                        .mp1{
+                            position: absolute;
+                            top: 46px;
+                            left: 0px;
+                        }
+                }
+            }
+        }
+    }    
+}        

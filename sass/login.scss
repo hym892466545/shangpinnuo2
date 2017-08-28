@@ -1,0 +1,98 @@
+*{margin: 0;padding: 0;}
+$w:1201px;
+$w1:100%;
+a{text-decoration: none;}
+.login_wrap{
+    width: $w1;
+    height: 382px;
+    background: #efefef;
+    border-bottom: 1px solid #147b14;
+    
+    .login{
+        width: $w;
+        height: 361px;
+        margin:0 auto;
+        border-left: 1px solid #b3b3b3;
+        border-bottom: 1px solid #b3b3b3;
+        overflow:hidden;
+        
+        .loginTop{
+            width: $w;
+            height: 47px;
+            margin-top: 3px;
+            background: url(../images/info-box-bg.png);
+            
+            div{
+                width:72px;
+                height: 47px;
+                color: white;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 47px;
+                margin-left: 27px;
+            }
+        }
+        
+        .loginLeft{
+            width: 599px;
+            height: 312px;
+            float: left;
+            overflow: hidden;
+            border-right: 1px solid #147b14;
+            
+            div{
+                width: 385px;
+                height: 155px;
+                margin-top: 60px;
+                margin-left: 60px;
+                
+                p{
+                    margin: 20px 0px 0px 0px;
+                    padding: 0px;
+                    text-align: left;
+                    font-size: 14px;
+                    font-weight: 500;
+                                        
+                    .register-lab{
+                        font-size: 14px;
+                        font-weight: 500;
+                        width: 100px;
+                        text-align: right;
+                        padding-right: 5px;
+                        display: inline-block;
+                    }
+                    
+                    .small-input{
+                        padding: 6px;
+                        font-size: 13px;
+                        border: 1px solid #d5d5d5;
+                        color: #333;
+                        width: 200px;
+                    }
+                }
+                
+                a{
+                   font-size: 14px; 
+                   color: rgb(125,125,125);
+                   
+                   img{
+                       margin-top: 22px;
+                   }
+                }
+            }
+        }
+        
+        .loginRight{
+            width: $w - 600px;
+            height: 312px;
+            background: url(../images/promise.jpg) no-repeat 0px 11px;
+            float: left;
+        }
+    }
+}
+
+.footerbottom{
+    width: $w1;
+    height: 148px;
+    background: #efefef;
+}

@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.mainwrap {
+  width: 100%;
+  height: 2438px;
+  background: #efefef;
+}
+.mainwrap .main {
+  width: 1201px;
+  height: 607px;
+  border-bottom: 1px solid #147b14;
+  margin: 0 auto;
+  background: url(../images/box-head2.png) no-repeat 0px 568px;
+}
+.mainwrap .main ._nav {
+  width: 1201px;
+  height: 79px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mainwrap .main ._nav ul {
+  width: 1201px;
+  height: 57px;
+  margin-top: 22px;
+  background: url(../images/categories-bg.gif);
+}
+.mainwrap .main ._nav ul li {
+  height: 57px;
+  width: 84px;
+  float: left;
+  border-right: 1px solid #484848;
+  text-align: center;
+  line-height: 57px;
+}
+.mainwrap .main ._nav ul li:hover {
+  background: black;
+}
+.mainwrap .main ._nav ul li a {
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+}
+.mainwrap .main .lorealname {
+  width: 1201px;
+  height: 50px;
+  margin-top: 11px;
+  background: white;
+  border-bottom: 1px solid #147b14;
+}
+.mainwrap .main .lorealfunction {
+  width: 1201px;
+  height: 78px;
+  background: white;
+  overflow: hidden;
+}
+.mainwrap .main .lorealfunction .lorealimg {
+  width: 1201px;
+  height: 39px;
+  overflow: hidden;
+  background: url(../images/box-head2.png) no-repeat 0px 0px;
+}
+.mainwrap .main .lorealfunction .lorealimg div {
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  margin-left: 28px;
+  margin-top: 10px;
+}
+.mainwrap .main .lorealfunction ul {
+  width: 1201px;
+  height: 39px;
+}
+.mainwrap .main .lorealfunction ul li {
+  height: 37px;
+  width: 75px;
+  float: left;
+  text-align: center;
+  line-height: 37px;
+}
+.mainwrap .main .lorealfunction ul li a {
+  font-weight: 900;
+  font-size: 13px;
+  color: #686862;
+}
+.mainwrap .main .chaonan {
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: 28px;
+  margin-top: 20px;
+}
+.mainwrap .products {
+  width: 1201px;
+  height: 2177px;
+  background: burlywood;
+  margin: 0 auto;
+  border-bottom: 1px solid #ebebeb;
+}
+.mainwrap .products .chaonanproduts {
+  width: 1201px;
+  height: 2142px;
+  background: goldenrod;
+  margin: 0 auto;
+}
+.mainwrap .products div {
+  width: 162px;
+  height: 35px;
+  float: right;
+  text-align: center;
+  line-height: 35px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=list.css.map */

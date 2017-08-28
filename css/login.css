@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login_wrap {
+  width: 100%;
+  height: 382px;
+  background: #efefef;
+  border-bottom: 1px solid #147b14;
+}
+.login_wrap .login {
+  width: 1201px;
+  height: 361px;
+  margin: 0 auto;
+  border-left: 1px solid #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+  overflow: hidden;
+}
+.login_wrap .login .loginTop {
+  width: 1201px;
+  height: 47px;
+  margin-top: 3px;
+  background: url(../images/info-box-bg.png);
+}
+.login_wrap .login .loginTop div {
+  width: 72px;
+  height: 47px;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 47px;
+  margin-left: 27px;
+}
+.login_wrap .login .loginLeft {
+  width: 599px;
+  height: 312px;
+  float: left;
+  overflow: hidden;
+  border-right: 1px solid #147b14;
+}
+.login_wrap .login .loginLeft div {
+  width: 385px;
+  height: 155px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.login_wrap .login .loginLeft div p {
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login_wrap .login .loginLeft div p .register-lab {
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  text-align: right;
+  padding-right: 5px;
+  display: inline-block;
+}
+.login_wrap .login .loginLeft div p .small-input {
+  padding: 6px;
+  font-size: 13px;
+  border: 1px solid #d5d5d5;
+  color: #333;
+  width: 200px;
+}
+.login_wrap .login .loginLeft div a {
+  font-size: 14px;
+  color: #7d7d7d;
+}
+.login_wrap .login .loginLeft div a img {
+  margin-top: 22px;
+}
+.login_wrap .login .loginRight {
+  width: 601px;
+  height: 312px;
+  background: url(../images/promise.jpg) no-repeat 0px 11px;
+  float: left;
+}
+
+.footerbottom {
+  width: 100%;
+  height: 148px;
+  background: #efefef;
+}
+
+/*# sourceMappingURL=login.css.map */
