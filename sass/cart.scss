@@ -1,0 +1,159 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+$w1:100%;
+$w:1201px;
+.mainwrap{
+   width:$w1;
+   height: 549px;
+   background: #efefef;
+
+    .main{
+        width: $w;
+        height: 549px;
+        margin: 0 auto;
+    
+        ._nav{
+            width: $w;
+            height: 79px;
+            margin: 0 auto;
+            overflow:hidden;
+            
+            ul{
+               width: $w;
+               height: 57px;
+               margin-top: 22px;
+               background: url(../images/categories-bg.gif);
+               
+               li{
+                   height: 57px;
+                   width: 84px;
+                   float: left;
+                   border-right:1px solid #484848;
+                   text-align: center;
+                   line-height: 57px;
+                   &:hover{background: black;}
+                   
+                   a{
+                       font-weight: 900;
+                       font-size: 14px;
+                       color: white;
+                   }
+               }
+            }
+        }
+        
+        .shoppingcart{
+            width: $w;
+            height: 425px;
+            background: white;
+            border-bottom: 2px solid #8c8c8c;
+            border-left: 2px solid #8c8c8c;
+            
+            .shoppingbag{
+                width: $w;
+                height: 70px;
+                
+                img{
+                    margin-top: 10px;
+                }
+            }
+            
+            .shoppingcart-head{
+                width: $w;
+                height: 55px;
+                border: 1px solid white;
+                background: url(../images/shoppingbag.png) no-repeat;
+                
+                div{
+                    color: rgb(181, 20, 45);
+                    line-height: 26px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-left: 40px;
+                    margin-top: 4px;
+                }
+            }
+            
+            .shoppingcart-name{
+                width: $w;
+                height: 30px;
+                background: yellow;
+                
+                ul{
+                    width: $w;
+                    height: 30px;
+                    background:black;
+                    
+                    li{
+                        height: 30px;
+                        float: left;
+                        text-align: center;
+                        line-height: 30px;
+                        border-left: 2px solid white;
+                        color: white;
+                    }
+                    
+                }
+            }
+            
+            .shoppingcontent{
+                border-bottom: 1px solid #147b14;
+                width: $w;
+                height: 82px;
+                
+                ul{
+                   width: $w;
+                   height: 82px; 
+                   
+                     li{
+                         height: 82px;
+                         float: left;
+                         text-align: center;
+                         line-height: 82px;
+                         border-left: 2px solid white;
+                     }
+                }
+            }
+            
+            .countadd{
+                width: $w;
+                height: 66px;
+                font-size: 12px; 
+                font-weight: 400; 
+                border-bottom: 1px solid #147b14;
+                line-height: 66px;
+                
+                .count1{
+                   margin-left: 850px; 
+                }
+                
+                .count2{
+                    margin-left: 50px;
+                }
+            }
+            
+            .gobuy{
+                width: $w;
+                height: 105px;
+                
+                .gobuy_left{
+                    float: left;
+                    width: 600px;
+                    height: 105px;
+                    line-height:145px ;
+                    margin-left: 30px;
+                }
+                
+                .gobuy_right{
+                    float: right;
+                    height: 105px;
+                    width:260px;
+                    text-align: center;
+                    line-height:145px ;
+                }
+            }
+            
+        }
+    }
+}

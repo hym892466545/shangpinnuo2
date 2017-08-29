@@ -3,7 +3,75 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<script src="../lib/requirejs/require.js" data-main = "/js/cart" charset="utf-8"></script>
 	</head>
 	<body>
+		<div class="header"></div>
+		<div class="mainwrap">
+			<div class="main">
+				<div class="_nav">
+					<ul>
+						<li><a href="#">欧莱雅</a></li>
+						<li><a href="#">妮维雅</a></li>
+						<li><a href="#">曼秀雷敦</a></li>
+						<li><a href="#">高夫</a></li>
+						<li><a href="#">卡尼尔</a></li>
+						<li><a href="#">俊士</a></li>
+						<li><a href="#">ADIDAS</a></li>
+						<li><a href="#">欧碧泉</a></li>
+						<li><a href="#">倩碧</a></li>
+						<li><a href="#">DIOR</a></li>
+						<li><a href="#">LANCOME</a></li>
+					</ul>
+				</div>
+				<div class="shoppingcart">
+					<div class="shoppingbag">
+						<img src="../images/shoppings1.jpg"/>
+					</div>
+					<div class="shoppingcart-head">
+						<div>我选的商品</div>
+					</div>
+					<div class="shoppingcart-name">
+						<ul>
+							<li style="width: 204px">商品</li>
+							<li style="width: 485px">名称</li>
+							<li style="width: 200px">价格</li>
+							<li style="width: 148px">数量</li>
+							<li style="width: 148px">操作</li>
+						</ul>
+					</div>
+					<div class="shoppingcontent">
+						<ul>
+							<li style="width: 204px">
+								<img src="../images/orangeloreal.jpg"/ style="width: 44px;height: 60px; margin-top: 10px;">
+							</li>
+							<li style="width: 485px;font-size: 12px;font-weight: 800;"><strong>劲能舒润液体洁面皂</strong></li>
+							<li style="width: 200px;color: #aa0a0a;">49.00</li>
+							<li style="width: 148px"><input type="text" / style="width: 20px;"></li>
+							<li style="width: 148px"><a href="#" style="color: black;">删除</a></li>
+						</ul>
+					</div>
+					
+					<div class="countadd">
+						<span class="count1">数量总计:<span class="totalNum" style="margin-left: 40px;">1</span>件</span>
+						<span class="count2">商品总计:<span class="totalprice" style="color:#aa0a0a; margin-left: 40px;">49.00</span>元</span>
+					</div>
+					
+					<div class="gobuy">
+						<div class="gobuy_left">
+							<a href="#"><img src="../images/goon1.png"/></a>
+							<a href="#"><img src="../images/clearcart.png"/></a>
+						</div>
+						<div class="gobuy_right">
+							<img src="../images/account1.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
 	</body>
 </html>

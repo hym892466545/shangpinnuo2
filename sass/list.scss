@@ -5,7 +5,7 @@ $w1:100%;
 $w:1201px;
 .mainwrap{
    width:$w1;
-   height: 2438px;
+   height: 2785px;
    background: #efefef;
 
     .main{
@@ -124,6 +124,10 @@ $w:1201px;
             line-height: 35px;
             font-size: 12px;
             font-weight: 400;
+            
+            a{
+                color: black;
+            }
         }
     } 
 }      

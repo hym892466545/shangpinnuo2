@@ -73,6 +73,9 @@ li {
   margin-left: 5px;
   line-height: 57px;
 }
+.productwrap .mainwrap .main .back a:hover {
+  color: #8c8c8c;
+}
 .productwrap .mainwrap .main ._productbox {
   width: 1201px;
   height: 300px;
@@ -138,6 +141,66 @@ li {
   position: absolute;
   top: 46px;
   left: 0px;
+}
+.productwrap .mainwrap .main .parameter {
+  width: 135px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  margin-top: 23px;
+  font-size: 15px;
+}
+.productwrap .mainwrap .arguments {
+  width: 1201px;
+  height: 502px;
+  margin: 0 auto;
+}
+.productwrap .mainwrap .arguments .argumentsimg {
+  float: left;
+  width: 1000px;
+  height: 502px;
+}
+.productwrap .mainwrap .arguments .argumentstuijian {
+  float: right;
+  width: 199px;
+  height: 502px;
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian {
+  width: 199px;
+  height: 37px;
+  background: url(../images/tuijian.jpg);
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian span {
+  color: white;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian .img1 {
+  width: 172px;
+  height: 219px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian .img2 {
+  width: 172px;
+  height: 219px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.productwrap .mainwrap .sirpin {
+  width: 1201px;
+  height: 390px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-bottom: 2px solid #bebebe;
+}
+.productwrap .mainwrap .sirpin .promiseservice {
+  margin-top: 20px;
+  margin-left: 90px;
 }
 
 /*# sourceMappingURL=detail.css.map */

@@ -13,7 +13,7 @@ li {
 
 .mainwrap {
   width: 100%;
-  height: 2438px;
+  height: 2785px;
   background: #efefef;
 }
 .mainwrap .main {
@@ -121,6 +121,9 @@ li {
   line-height: 35px;
   font-size: 12px;
   font-weight: 400;
+}
+.mainwrap .products div a {
+  color: black;
 }
 
 /*# sourceMappingURL=list.css.map */

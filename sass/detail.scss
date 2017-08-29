@@ -66,6 +66,7 @@ $w:1201px;
                         color: white;
                         margin-left: 5px;
                         line-height: 57px;
+                        &:hover{color: rgb(140, 140, 140);}
                     }
             }
             
@@ -146,6 +147,94 @@ $w:1201px;
                         }
                 }
             }
+            
+            .parameter{
+                width: 135px;
+                height: 37px;
+                line-height: 37px;
+                text-align: center;
+                color: white;
+                font-weight: 800;
+                margin-top: 23px;
+                font-size: 15px;
+            }
+        }
+        
+        .arguments{
+            width: $w;
+            height: 502px;
+            margin: 0 auto;
+            
+            .argumentsimg{
+                float: left;
+                width: 1000px;
+                height: 502px;
+            }
+            
+            .argumentstuijian{
+                float: right;
+                width: $w - 1002px;
+                height: 502px;
+                
+                .tuijian{
+                    width: $w - 1002px;
+                    height: 37px;
+                    background: url(../images/tuijian.jpg);
+                    
+                    span{
+                        color: white;
+                        margin-left: 10px;
+                        font-size: 13px;
+                        font-weight: 800;
+                        line-height: 37px;
+                    }
+                    
+                    .img1{
+                        width: 172px;
+                        height: 219px;
+                        margin-top: 10px;
+                        margin-left: 13px;
+                    }
+                    
+                     .img2{
+                        width: 172px;
+                        height: 219px;
+                        margin-top: 10px;
+                        margin-left: 13px;
+                    }
+                }
+            }
+        }
+        
+        .sirpin{
+            width: $w;
+            height: 390px;
+            margin: 0 auto;
+            margin-top: 10px;
+            border-bottom: 2px solid #bebebe;
+            
+            .promiseservice{
+                margin-top: 20px;
+                margin-left: 90px;
+            }
         }
     }    
-}        
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
