@@ -29,6 +29,12 @@ a{text-decoration: none;}
                font-size:12px;
                line-height:25px;
                float: left;
+                       a{
+                           color: #9c9c9c;
+                           &:hover{
+                               color: white;
+                           }
+                       }
             }
             
             #cart{

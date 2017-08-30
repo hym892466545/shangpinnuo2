@@ -35,6 +35,12 @@ a {
   line-height: 25px;
   float: left;
 }
+#header .headerTop .right .nav a {
+  color: #9c9c9c;
+}
+#header .headerTop .right .nav a:hover {
+  color: white;
+}
 #header .headerTop .right #cart {
   float: right;
   width: 90px;

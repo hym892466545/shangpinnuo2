@@ -7,6 +7,20 @@
 		<link rel="stylesheet" type="text/css" href="css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 		<script src="lib/requirejs/require.js" data-main="/js/index"></script>
+		<script type="text/html" id="product_list">
+			<% 
+				for (var i = 0, len = list.length; i < len; i++) {
+					var prod = list[i];
+			%>
+				<a href="html/detail.html">
+					<div>
+						<img src="<%=prod.srcImg%>" alt="" />
+						<p class="name"><%=prod.name%></p>
+						<p class="price"><%=prod.price%></p>
+					</div>
+				</a>
+			<% } %>
+		</script>
 	</head>
 	<body>
 		<div class="header"></div>
@@ -33,11 +47,15 @@
 				<h1>尚品诺 男士护肤新品</h1>
 			</div>
 			<div class="newContent">
-				<div class="content"></div>
+				<div class="content">
+					
+				</div>
 				<h1>尚品诺 男士护肤推荐</h1>
 			</div>
 			<div class="tjContent">
-				<div class="content1"></div>
+				<div class="content1">
+					
+				</div>
 			</div>
 		</div>	
 		<div class="footer"></div>

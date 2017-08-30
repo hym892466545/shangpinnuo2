@@ -3,13 +3,11 @@ define(["jquery", "cookie"], function($){
 		type : 'get',
 		url : "/html/include/header.html",
 		success : function(data){
-			var _username = $.cookie("loginUser");
-			if (_username) { // 存在登录成功的用户
-				$(data).filter(".login_reg")
-					   .html(`欢迎你：${_username}`).end()
-					   .appendTo(".header");
-			} else {
-				$(data).appendTo(".header");
+			$(data).appendTo(".header");
+			var _url =location.search;
+			var _username = _url.split("=").slice(1);
+			if(_url){
+				$(".nav").html(`欢迎你：${_username}`).css("color","white");
 			}
 		}
 	});

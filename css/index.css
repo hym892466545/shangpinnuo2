@@ -61,9 +61,36 @@ li {
     .mainwrap .newContent .content {
       width: 1184px;
       height: 1023px;
-      background: burlywood;
       margin: 0 auto;
-      margin-top: 20px; }
+      margin-top: 20px;
+      overflow: hidden; }
+      .mainwrap .newContent .content div {
+        float: left;
+        width: 219px;
+        height: 325px;
+        margin-top: 12px;
+        margin-left: 13px;
+        background: white;
+        border: 1px solid #9f9f9f;
+        overflow: hidden; }
+        .mainwrap .newContent .content div img {
+          margin-top: 42px;
+          margin-left: 30px; }
+        .mainwrap .newContent .content div .name {
+          color: #8c8c8c;
+          line-height: 10px;
+          font-size: 13px;
+          text-align: center;
+          margin-top: 10px; }
+          .mainwrap .newContent .content div .name:hover {
+            color: black; }
+        .mainwrap .newContent .content div .price {
+          text-align: center;
+          color: #a31212;
+          line-height: 20px;
+          margin-top: 5px;
+          font-size: 17px;
+          font-weight: 900; }
     .mainwrap .newContent h1 {
       color: white;
       font-size: 15px;
