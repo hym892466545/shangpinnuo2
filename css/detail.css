@@ -179,17 +179,40 @@ li {
   font-weight: 800;
   line-height: 37px;
 }
-.productwrap .mainwrap .arguments .argumentstuijian .tuijian .img1 {
-  width: 172px;
-  height: 219px;
-  margin-top: 10px;
-  margin-left: 13px;
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian ._tuijian {
+  width: 199px;
+  height: 463px;
 }
-.productwrap .mainwrap .arguments .argumentstuijian .tuijian .img2 {
-  width: 172px;
-  height: 219px;
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian ._tuijian div {
+  float: left;
+  width: 197px;
+  height: 300px;
+  background: white;
+  border: 1px solid #9f9f9f;
+  overflow: hidden;
+  position: relative;
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian ._tuijian div img {
   margin-top: 10px;
-  margin-left: 13px;
+  margin-left: 10px;
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian ._tuijian div .name {
+  color: #8c8c8c;
+  line-height: 10px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian ._tuijian div .name:hover {
+  color: black;
+}
+.productwrap .mainwrap .arguments .argumentstuijian .tuijian ._tuijian div .price {
+  text-align: center;
+  color: #a31212;
+  line-height: 20px;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 900;
 }
 .productwrap .mainwrap .sirpin {
   width: 1201px;

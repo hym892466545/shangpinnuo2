@@ -7,6 +7,21 @@
 		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
 		<script src="../lib/requirejs/require.js"data-main = "/js/list" charset="utf-8"></script>
+		<script src="" type="text/html" id="prod_detail">
+			<% 
+				for (var i = 0, len = list.length; i < len; i++) {
+					var prod = list[i];
+			%>
+				<a href="detail.html">
+					<div>
+						<img src="../images/new.png" class="new"/>
+						<img src="<%=prod.srcImg%>" alt="" class="new1"/>
+						<p class="name"><%=prod.name%></p>
+						<p class="price"><%=prod.price%></p>
+					</div>
+				</a>
+			<% } %>
+		</script>
 	</head>
 	<body>
 		<div class="header"></div>
@@ -55,7 +70,9 @@
 			</div>
 			
 			<div class="products">
-				<div class="chaonanproduts"></div>
+				<div class="chaonanproduts">
+					
+				</div>
 				<div>
 					<pre><a href="#">上一页</a>|<a href="#">下一页</a>|  <span>1</span>/1页</pre>
 				</div>

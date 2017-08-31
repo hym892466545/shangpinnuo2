@@ -7,6 +7,25 @@
 		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
 		<script src="../lib/requirejs/require.js" data-main = "/js/cart" charset="utf-8"></script>
+		<script type="text/html" id="shop_cart">
+			<% 
+				for (var i = 0, len = products.length; i < len; i++) {
+					var prod = products[i];
+			%>
+				<div class="shoppingcontent">
+						<ul>
+							<li class="prod_id" style="display:none"><%=prod.id%></li>
+							<li style="width: 204px">
+								<img class="shop_img" src="<%=prod.imgSrc%>"/ style="width: 44px;height: 60px; margin-top: 10px;">
+							</li>
+							<li style="width: 485px;font-size: 12px;font-weight: 800;"><strong class="shop_name"><%=prod.name%></strong></li>
+							<li style="width: 200px;color: #aa0a0a;" class="shop_price"><%=prod.price%></li>
+							<li style="width: 148px"><input class="shop_amount" type="text" style="width: 20px;" value="<%=prod.amount%>"/></li>
+							<li style="width: 148px"><a class="delete" href="#" style="color: black;">删除</a></li>
+						</ul>
+					</div>
+			<% } %>
+		</script>
 	</head>
 	<body>
 		<div class="header"></div>
@@ -14,7 +33,7 @@
 			<div class="main">
 				<div class="_nav">
 					<ul>
-						<li><a href="#">欧莱雅</a></li>
+						<li><a href="list.html">欧莱雅</a></li>
 						<li><a href="#">妮维雅</a></li>
 						<li><a href="#">曼秀雷敦</a></li>
 						<li><a href="#">高夫</a></li>
@@ -43,18 +62,9 @@
 							<li style="width: 148px">操作</li>
 						</ul>
 					</div>
-					<div class="shoppingcontent">
-						<ul>
-							<li style="width: 204px">
-								<img src="../images/orangeloreal.jpg"/ style="width: 44px;height: 60px; margin-top: 10px;">
-							</li>
-							<li style="width: 485px;font-size: 12px;font-weight: 800;"><strong>劲能舒润液体洁面皂</strong></li>
-							<li style="width: 200px;color: #aa0a0a;">49.00</li>
-							<li style="width: 148px"><input type="text" / style="width: 20px;"></li>
-							<li style="width: 148px"><a href="#" style="color: black;">删除</a></li>
-						</ul>
+					<div class="cart_product">
+						
 					</div>
-					
 					<div class="countadd">
 						<span class="count1">数量总计:<span class="totalNum" style="margin-left: 40px;">1</span>件</span>
 						<span class="count2">商品总计:<span class="totalprice" style="color:#aa0a0a; margin-left: 40px;">49.00</span>元</span>

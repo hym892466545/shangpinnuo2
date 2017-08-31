@@ -1,113 +1,177 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 .mainwrap {
   width: 100%;
   height: 2438px;
-  background: #efefef; }
-  .mainwrap .main {
-    width: 1201px;
-    height: 549px;
-    border-bottom: 1px solid #147b14;
-    margin: 0 auto;
-    background: url(../images/box-head2.png) no-repeat 0px 510px; }
-    .mainwrap .main ._nav {
-      width: 1201px;
-      height: 79px;
-      margin: 0 auto;
-      overflow: hidden; }
-      .mainwrap .main ._nav ul {
-        width: 1201px;
-        height: 57px;
-        margin-top: 22px;
-        background: url(../images/categories-bg.gif); }
-        .mainwrap .main ._nav ul li {
-          height: 57px;
-          width: 84px;
-          float: left;
-          border-right: 1px solid #484848;
-          text-align: center;
-          line-height: 57px; }
-          .mainwrap .main ._nav ul li:hover {
-            background: black; }
-          .mainwrap .main ._nav ul li a {
-            font-weight: 900;
-            font-size: 14px;
-            color: white; }
-    .mainwrap .main .slider {
-      width: 1201px;
-      height: 411px;
-      margin: 0 auto; }
-    .mainwrap .main h1 {
-      color: white;
-      font-size: 15px;
-      font-weight: 800;
-      margin-top: 28px;
-      margin-left: 28px; }
-  .mainwrap .newContent {
-    width: 1201px;
-    height: 1136px;
-    background: url(../images/box-head2.png) no-repeat 0px 1097px;
-    margin: 0 auto;
-    border-bottom: 1px solid #147b14;
-    overflow: hidden; }
-    .mainwrap .newContent .content {
-      width: 1184px;
-      height: 1023px;
-      margin: 0 auto;
-      margin-top: 20px;
-      overflow: hidden; }
-      .mainwrap .newContent .content div {
-        float: left;
-        width: 219px;
-        height: 325px;
-        margin-top: 12px;
-        margin-left: 13px;
-        background: white;
-        border: 1px solid #9f9f9f;
-        overflow: hidden; }
-        .mainwrap .newContent .content div img {
-          margin-top: 42px;
-          margin-left: 30px; }
-        .mainwrap .newContent .content div .name {
-          color: #8c8c8c;
-          line-height: 10px;
-          font-size: 13px;
-          text-align: center;
-          margin-top: 10px; }
-          .mainwrap .newContent .content div .name:hover {
-            color: black; }
-        .mainwrap .newContent .content div .price {
-          text-align: center;
-          color: #a31212;
-          line-height: 20px;
-          margin-top: 5px;
-          font-size: 17px;
-          font-weight: 900; }
-    .mainwrap .newContent h1 {
-      color: white;
-      font-size: 15px;
-      font-weight: 800;
-      margin-top: 64px;
-      margin-left: 28px; }
-  .mainwrap .tjContent {
-    width: 1201px;
-    height: 752px;
-    background: yellowgreen;
-    margin: 0 auto;
-    overflow: hidden; }
-    .mainwrap .tjContent .content1 {
-      width: 1184px;
-      height: 673px;
-      background: coral;
-      margin-top: 22px;
-      margin-left: 9px; }
+  background: #efefef;
+}
+.mainwrap .main {
+  width: 1201px;
+  height: 549px;
+  border-bottom: 1px solid #147b14;
+  margin: 0 auto;
+  background: url(../images/box-head2.png) no-repeat 0px 510px;
+}
+.mainwrap .main ._nav {
+  width: 1201px;
+  height: 79px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mainwrap .main ._nav ul {
+  width: 1201px;
+  height: 57px;
+  margin-top: 22px;
+  background: url(../images/categories-bg.gif);
+}
+.mainwrap .main ._nav ul li {
+  height: 57px;
+  width: 84px;
+  float: left;
+  border-right: 1px solid #484848;
+  text-align: center;
+  line-height: 57px;
+}
+.mainwrap .main ._nav ul li:hover {
+  background: black;
+}
+.mainwrap .main ._nav ul li a {
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+}
+.mainwrap .main .slider {
+  width: 1201px;
+  height: 411px;
+  margin: 0 auto;
+}
+.mainwrap .main h1 {
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  margin-top: 28px;
+  margin-left: 28px;
+}
+.mainwrap .newContent {
+  width: 1201px;
+  height: 1136px;
+  background: url(../images/box-head2.png) no-repeat 0px 1097px;
+  margin: 0 auto;
+  border-bottom: 1px solid #147b14;
+  overflow: hidden;
+}
+.mainwrap .newContent .content {
+  width: 1184px;
+  height: 1023px;
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.mainwrap .newContent .content div {
+  float: left;
+  width: 219px;
+  height: 325px;
+  margin-top: 12px;
+  margin-left: 13px;
+  background: white;
+  border: 1px solid #9f9f9f;
+  overflow: hidden;
+  position: relative;
+}
+.mainwrap .newContent .content div .new {
+  position: absolute;
+  top: -42px;
+  left: -30px;
+}
+.mainwrap .newContent .content div img {
+  margin-top: 42px;
+  margin-left: 30px;
+}
+.mainwrap .newContent .content div .name {
+  color: #8c8c8c;
+  line-height: 10px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
+.mainwrap .newContent .content div .name:hover {
+  color: black;
+}
+.mainwrap .newContent .content div .price {
+  text-align: center;
+  color: #a31212;
+  line-height: 20px;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 900;
+}
+.mainwrap .newContent h1 {
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  margin-top: 64px;
+  margin-left: 28px;
+}
+.mainwrap .tjContent {
+  width: 1201px;
+  height: 752px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mainwrap .tjContent .content1 {
+  width: 1184px;
+  height: 685px;
+  margin-top: 22px;
+  margin-left: 9px;
+}
+.mainwrap .tjContent .content1 div {
+  float: left;
+  width: 219px;
+  height: 325px;
+  margin-top: 12px;
+  margin-left: 13px;
+  background: white;
+  border: 1px solid #9f9f9f;
+  overflow: hidden;
+  position: relative;
+}
+.mainwrap .tjContent .content1 div .sale {
+  position: absolute;
+  top: -42px;
+  left: -30px;
+}
+.mainwrap .tjContent .content1 div img {
+  margin-top: 42px;
+  margin-left: 30px;
+}
+.mainwrap .tjContent .content1 div .name {
+  color: #8c8c8c;
+  line-height: 10px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+}
+.mainwrap .tjContent .content1 div .name:hover {
+  color: black;
+}
+.mainwrap .tjContent .content1 div .price {
+  text-align: center;
+  color: #a31212;
+  line-height: 20px;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 900;
+}
 
 /*# sourceMappingURL=index.css.map */

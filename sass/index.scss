@@ -84,6 +84,13 @@ $w:1201px;
                 background: white;
                 border: 1px solid #9f9f9f;
                 overflow: hidden;
+                position: relative;
+                
+                .new{
+                    position: absolute;
+                    top: -42px;
+                    left: -30px;
+                }
                 
                 img{
                     margin-top: 42px;
@@ -124,16 +131,58 @@ $w:1201px;
     .tjContent{
         width: $w;
         height: 752px;
-        background: yellowgreen;
         margin: 0 auto;
         overflow: hidden;
         
         .content1{
             width: 1184px;
-            height: 673px;
-            background: coral;
+            height: 685px;
             margin-top: 22px;
             margin-left: 9px;
+            
+             div{
+                float: left;
+                width: 219px;
+                height: 325px;
+                margin-top: 12px;
+                margin-left: 13px;
+                background: white;
+                border: 1px solid #9f9f9f;
+                overflow: hidden;
+                position: relative;
+                
+                .sale{
+                    position: absolute;
+                    top: -42px;
+                    left: -30px;
+                }
+                
+                img{
+                    margin-top: 42px;
+                    margin-left: 30px;
+                }
+                
+                .name{
+                    color: #8c8c8c;
+                    line-height: 10px;
+                    font-size: 13px;
+                    text-align: center;
+                    margin-top: 10px;
+                    &:hover{
+                        color: black;
+                    }
+                }
+                
+                .price{
+                    text-align: center;
+                    color: rgb(163, 18, 18);
+                    line-height: 20px;
+                    margin-top: 5px;
+                    font-size: 17px;
+                    font-weight: 900;
+                }
+                
+            }
         }
     }
 }

@@ -7,6 +7,20 @@
 		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
 		<script src="../lib/requirejs/require.js" data-main = "/js/detail" charset="utf-8"></script>
+		<script src="" type="text/html" id="tuijian">
+			<% 
+				for (var i = 0, len = tuijian.length; i < len; i++) {
+					var prod = tuijian[i];
+			%>
+				<a href="html/detail.html">
+					<div>
+						<img src="<%=prod.srcImg%>" />
+						<p class="name"><%=prod.name%></p>
+						<p class="price"><%=prod.price%></p>
+					</div>
+				</a>
+			<% } %>
+		</script>
 	</head>
 	<body>
 		<div class="header"></div>
@@ -16,7 +30,7 @@
 				<div class="main">
 					<div class="_nav">
 						<ul>
-							<li><a href="#">欧莱雅</a></li>
+							<li><a href="list.html">欧莱雅</a></li>
 							<li><a href="#">妮维雅</a></li>
 							<li><a href="#">曼秀雷敦</a></li>
 							<li><a href="#">高夫</a></li>
@@ -30,24 +44,22 @@
 						</ul>
 					</div>
 					<div class="back">
-						<div><a href="#" style="margin-left: 20px;">Back</a><a href="#">欧莱雅</a>>详细信息</div>
+						<div><a href="#" style="margin-left: 20px;" id="_back">Back</a><a href="list.html">欧莱雅</a>>详细信息</div>
 					</div>
 					<div class="_productbox">
 						<div class="_productleft">
 							<img src="../images/soap.jpg"/>
 						</div>
 						<div class="_productright">
-							<div class="_productright_top">
-								劲能舒润液体洁面皂
-							</div>
+							<div class="_productright_top">劲能舒润液体洁面皂</div>
 							<div class="_productright_center">
 								<div style="margin-top: 10px;"><span class="id">商品编号:</span><span class="_id _span">2014332156243</span></div>
 								<div><span class="size">商品规格:</span><span class="_size _span">150ML</span></div>
-								<div><span class="price">商品价格:</span><span class="_price _span" style="color: #a31212;font-size: 17px;font-weight: 900;">¥ 49.00</span></div>
-								<div><span class="count">购买数量:</span><span class="count _span"></span><input type="text" style="width: 18px"/>件</div>
+								<div><span class="price">商品价格:</span>¥<span class="_price _span" style="color: #a31212;font-size: 17px;font-weight: 900;"> 49.00</span></div>
+								<div><span class="count">购买数量:</span><span class="count _span"></span><input type="text" style="width: 18px" value="1"/>件</div>
 							</div>
 							<div class="_productright_bottom">
-								<a href="#"><img src="../images/buy1.png"/></a>
+								<a href="cart.html"><img src="../images/buy1.png"/></a>
 							</div>
 							<img src="../images/mpl.png" class="mp1" style="height: 256px;"/>
 						</div>
@@ -61,8 +73,9 @@
 					<div class="argumentstuijian">
 						<div class="tuijian">
 							<span>您可能还需要  :</span>
-							<div class="img1" style="border: 1px solid #a9a9a9; border-top: none;"></div>
-							<div class="img2" style="border: 1px solid #a9a9a9; border-top: none;"></div>
+							<div class="_tuijian">
+								
+							</div>
 						</div>
 					</div>
 				</div>

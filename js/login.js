@@ -44,6 +44,7 @@ require(["config"], function(){
 			$("#btn").click(function(e){
 				//判断上述两个框是否符合正则表达式
 				if(yes) {
+					//获取cookie
 					$.cookie.json = true;
 					var _userInfos = $.cookie("userInfos");
 					var email_val = $("#email").val();

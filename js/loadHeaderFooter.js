@@ -19,5 +19,4 @@ define(["jquery", "cookie"], function($){
 				$(data).appendTo(".footer");
 		}
 	});
-	
 });

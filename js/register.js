@@ -69,6 +69,7 @@ require(["config"], function(){
 					email: email_val,
 					pwd: password_val
 				}
+				//保存cookie
 				$.cookie.json = true;//自动转化
 				var userInfos = $.cookie("userInfos") || [];
 				// 查找当前选购商品的ID在数组中已选购商品元素中是否存在

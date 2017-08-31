@@ -103,15 +103,51 @@ li {
 .mainwrap .products {
   width: 1201px;
   height: 2177px;
-  background: burlywood;
   margin: 0 auto;
   border-bottom: 1px solid #ebebeb;
 }
 .mainwrap .products .chaonanproduts {
   width: 1201px;
   height: 2142px;
-  background: goldenrod;
   margin: 0 auto;
+  overflow: hidden;
+}
+.mainwrap .products .chaonanproduts div {
+  float: left;
+  width: 219px;
+  height: 325px;
+  margin-top: 12px;
+  margin-left: 13px;
+  background: white;
+  border: 1px solid #9f9f9f;
+  overflow: hidden;
+  position: relative;
+}
+.mainwrap .products .chaonanproduts div .new {
+  position: absolute;
+  top: -42px;
+  left: -15px;
+}
+.mainwrap .products .chaonanproduts div img {
+  margin-top: 42px;
+  margin-left: 15px;
+}
+.mainwrap .products .chaonanproduts div .name {
+  color: #8c8c8c;
+  line-height: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+.mainwrap .products .chaonanproduts div .name:hover {
+  color: black;
+}
+.mainwrap .products .chaonanproduts div .price {
+  text-align: center;
+  color: #a31212;
+  line-height: 20px;
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: 900;
 }
 .mainwrap .products div {
   width: 162px;
